@@ -1,6 +1,6 @@
 # Mastering Angular Material Dialogs (mat-dialog) with Practical Examples
 
-Read the full tutorial [here]().
+Read the full tutorial [here](https://www.djamware.com/post/686b3c5a01c2662c5a5727a9/mastering-angular-material-dialogs-matdialog-with-practical-examples).
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.5.
 
