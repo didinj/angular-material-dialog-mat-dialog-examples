@@ -1,0 +1,24 @@
+<h2 mat-dialog-title>Enter Your Details</h2>
+<mat-dialog-content [formGroup]="form">
+  <mat-form-field appearance="fill" class="w-full">
+    <mat-label>Name</mat-label>
+    <input matInput formControlName="name" />
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" class="w-full">
+    <mat-label>Email</mat-label>
+    <input matInput formControlName="email" />
+  </mat-form-field>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+  <button mat-button (click)="onCancel()">Cancel</button>
+  <button
+    mat-raised-button
+    color="primary"
+    (click)="onSubmit()"
+    [disabled]="form.invalid"
+  >
+    Submit
+  </button>
+</mat-dialog-actions>
